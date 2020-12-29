@@ -47,7 +47,8 @@
                 android:fontFamily="serif"
                 android:gravity="end"
                 android:textStyle="bold"
-                android:textColor="#ffffff"/>
+                android:textColor="#ffffff"
+                android:layout_toRightOf="@id/relativeLayout1" />
 
             <TextView
                 android:id="@+id/time"
@@ -58,7 +59,8 @@
                 android:layout_marginTop="4dp"
                 android:layout_toRightOf="@id/relativeLayout1"
                 android:text="time"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:layout_marginLeft="12dp" />
             <TextView
                 android:id="@+id/date"
                 android:layout_width="wrap_content"
@@ -68,7 +70,8 @@
                 android:layout_marginTop="4dp"
                 android:layout_toRightOf="@id/time"
                 android:text="date"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:layout_marginLeft="12dp" />
 
 
         </RelativeLayout>
