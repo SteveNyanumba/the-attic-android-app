@@ -73,10 +73,12 @@
 
         <TextView
             android:id="@+id/signUpTxtView"
+            android:clickable="true"
             android:layout_gravity="center"
             android:layout_margin="16dp"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:onClick="goRegister"
             android:textColor="@color/grey_dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
